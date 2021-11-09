@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Generator</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <h1>RANDOMIZER</h1>
+      <form method="get" class="data-form">
+        <div>
+          <a id="enter min" class="min_number">Min</a>
+
+          <br />
+
+          <input type="text_min" class="min" name="valueId" />
+        </div>
+
+        <div>
+          <a id="enter max" class="max_number">Max</a>
+          <br />
+          <input type="text_max" class="max" name="valueId" />
+          <br />
+        </div>
+
+        <div>
+          <button type="submit" class="button_accept" id="button_accept">
+            Generate
+          </button>
+        </div>
+
+        <div>
+          <span class="Generated_number"
+            >Generated numbers <span class="numbers" id="numbers"></span
+          ></span>
+        </div>
+
+        <div>
+          <button class="button_reset">Reset</button>
+        </div>
+      </form>
+    </div>
+    <script src="javascript.js"></script>
+  </body>
+</html>
